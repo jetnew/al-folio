@@ -1,7 +1,7 @@
 ---
 layout: page
-title: portfolio
-permalink: /portfolio/
+title: projects
+permalink: /projects/
 description: A serious pursuit of fun.
 nav: true
 nav_order: 2
