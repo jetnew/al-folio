@@ -3,6 +3,7 @@ layout: post
 title: "Why You Should Conduct a Technical Workshop"
 description: Reflections on leading the Workshops Team at NUS Statistics Society in AY2020/21.
 date: 2021-03-19
+comments: life
 giscus_comments: true
 ---
 

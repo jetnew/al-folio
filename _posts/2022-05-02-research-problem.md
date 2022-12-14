@@ -3,6 +3,7 @@ layout: post
 title: "How to Formulate a Research Problem"
 description: Notes on formulating research problems.
 date: 2030-05-02
+comments: research
 giscus_comments: true
 ---
 

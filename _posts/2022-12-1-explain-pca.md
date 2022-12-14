@@ -3,6 +3,7 @@ layout: post
 title: "How to Explain PCA to a Non-Specialist"
 description: A simple walkthrough of why PCA is needed and how to interpret it.
 date: 3022-12-1
+comments: tutorial data-science
 giscus_comments: true
 ---
 
