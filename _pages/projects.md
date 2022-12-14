@@ -5,7 +5,7 @@ permalink: /projects/
 description: A serious pursuit of fun.
 nav: true
 nav_order: 2
-display_categories: [higlights, class, work, fun]
+display_categories: [highlights, class, work, fun]
 horizontal: false
 ---
 
