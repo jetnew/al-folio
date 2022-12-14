@@ -3,7 +3,6 @@ layout: post
 title: "A Quickstart to Python Programming"
 description: A quick walkthrough into the basics of Python programming.
 date: 2019-01-04
-tags: tutorial
 giscus_comments: true
 ---
 

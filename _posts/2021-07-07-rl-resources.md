@@ -3,7 +3,6 @@ layout: post
 title: "Getting Started with Reinforcement Learning"
 description: A curation of resources for reinforcement learning.
 date: 2021-07-07
-tags: research
 giscus_comments: true
 ---
 
