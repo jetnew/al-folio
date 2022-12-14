@@ -3,7 +3,7 @@ layout: page
 permalink: /code/
 title: code
 description: Selected GitHub repositories.
-nav: true
+nav: false
 nav_order: 3
 ---
 
