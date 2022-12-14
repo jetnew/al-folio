@@ -3,6 +3,7 @@ layout: post
 title: "Industry vs PhD"
 description: A list of personal factors of consideration to look back on years later.
 date: 2022-10-12
+tags: life research
 giscus_comments: true
 ---
 
