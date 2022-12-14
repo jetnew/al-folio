@@ -12,27 +12,12 @@ Over the past 2 years, I have deliberated too long over my career plans after gr
 
 I list all factors I considered that may be unique to my personal situation, then later provide a more general framework for other students in tech to consider between industry and PhD. This list first serves as a personal track to later reflect on, and then to compile a list of considerations to help other students with their decision making.
 
-To understand my (final) personal decision, I need to introduce my background.
-
-- I am currently a year 4 CS undergrad at the National University of Singapore, focusing on AI.
-- Under the University Scholars Programme (now NUS College), I learnt to deeply appreciate academic research. Under the Turing Programme, I researched reinforcement learning, a topic I love because of how close it is to game-playing (closer than game dev, which was my reason for choosing to study CS).
-- I interned in industry 3 times, as a contract staff on ML at IMDA after NS before university, ML engineer at Grab in year 1 summer and data scientist at Indeed in year 3 summer.
-- I led many AI projects for class projects and hackathons, many of which won awards. I also led a student interest group as president to organize data science competitions, workshops and talks.
-- Before university, my studies were poor largely because my parents divorced when I was in secondary school, alongside a very difficult financial situation. I lucked out in GCE A Level exams and scored 86.25/90 rank points, triggering a final struggle to strive for a better life.
-- My goal for my career peak (average career peaks at age 40) is one of the 4 (equal) possibilities:
-    1. Industry → Data Scientist → Group Director at a company in **industry**
-    2. Industry → Data Scientist → Found my own startup in **industry**
-    3. PhD → AI Researcher → Research Director at an **industry** research lab
-    4. PhD → AI Researcher → Found my own startup in **industry**
-
 My possibilities after university are:
 1. Industry - Data Scientist
     - Indeed Singapore, Match Recommendation Platform
 2. (Applying to) PhD - AI Researcher
     - University College London, Deciding, Acting and Reasoning with Knowledge (DARK) Lab
     - University of Edinburgh, Autonomous Agents Research Group
-
-
 
 ## Personal Factors of Consideration
 

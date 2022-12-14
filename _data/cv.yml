@@ -1,46 +1,46 @@
-- title: General Information
+- title: Summary
   type: map
   contents:
-    - name: Full Name
-      value: Jet New Jun Jie
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, Chinese
+    - name: Name
+      value: Jet New
+    - name: Education
+      value: B.Comp. in Computer Science at NUS
+    - name: Work
+      value: Data Scientist at Indeed
 
 - title: Experience
   type: time_table
   contents:
-    - title: (Incoming) Data Scientist
+    - title: Data Scientist (Incoming)
       institution: Indeed
       year: Jul 2023 - Onwards
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
 
     - title: Data Scientist Intern
       institution: Indeed
       year: Summer 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Performed feature experimentation for the core match recommendation system, improving business-critical metrics for 300M job seekers.
+        - Deployed a model to production through data pipelining, feature engineering, model training and online A/B testing using Spark, Hive, Airflow, Jenkins, etc.
 
     - title: Undergraduate AI Researcher
       institution: National University of Singapore
       year: 2020 - 2021
+      description:
+        - Researched reinforcement learning and graph neural networks.
+        - Wrote a <a href="https://jetnew.io/assets/pdf/new2021representation.pdf">survey paper on representation learning</a> for reinforcement learning, and presented paper summaries to lab members.
 
     - title: Machine Learning Engineer Intern
       institution: Grab
       year: Summer 2020
       description:
+        - Developed a probabilistic modelling framework in TensorFlow 2 for the dynamic pricing algorithm, including benchmarking and visualisation utilities.
+        - Presented at Singapore <a href="https://www.youtube.com/watch?v=6uwugOSuwhE">Google Developer Space</a>.
 
     - title: Executive
       institution: Infocomm Media Development Authority
       year: 2018 - 2019
+      description:
+        - Developed and benchmarked an unsupervised time series anomaly detection <a href="https://www.imda.gov.sg/programme-listing/digital-services-lab/Intelligent-Building-Proactive-Energy-Management/Chiller-Doctor">algorithm</a> that secured a $500K deal to deploy for 2 industry clients.
 
 - title: Education
   type: time_table
@@ -49,8 +49,8 @@
       institution: National University of Singapore
       year: 2023
       description:
-        - University Scholars Programme, an academic programme and honours college that admits less than 3% of the NUS cohort.
-        - Turing Programme, an invite-only research programme for CS students selected by class performance.
+        - <a href="http://www.usp.nus.edu.sg/">University Scholars Programme</a>, an academic programme and honours college that admits less than 3% of the NUS cohort.
+        - <a href="https://www.comp.nus.edu.sg/programmes/ug/cs/tp/">Turing Programme</a>, an invite-only research programme for CS students selected by class performance.
         - President of the NUS Statistics and Data Science Society, a student initiative under the NUS Department of Statistics and Data Science.
 
 - title: Projects
