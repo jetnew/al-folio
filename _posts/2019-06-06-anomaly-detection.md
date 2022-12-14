@@ -3,7 +3,7 @@ layout: post
 title: "Anomaly Detection of Time Series Data"
 description: A note on anomaly detection techniques, evaluation and applications on time series data.
 date: 2019-06-06
-comments: tutorial data-science
+tags: tutorial data-science
 giscus_comments: true
 ---
 

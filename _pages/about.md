@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: Data Scientist / Machine Learning Engineer
+subtitle: <b>Data Scientist / Machine Learning Engineer</b>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    Woodlands, Singapore.
+    Marsiling Park, Singapore.
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
