@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "A Simple Brief on PCA"
-description: A simple walkthrough of why PCA is needed and how to interpret it.
+title: "PCA Explained Simply"
+description: A simple explainer of why PCA is needed and how to interpret it.
 date: 2023-1-9
 tags: tutorial data-science
 giscus_comments: true
