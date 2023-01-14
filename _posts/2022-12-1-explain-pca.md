@@ -1,28 +1,45 @@
 ---
 layout: post
-title: "Explain PCA Like I'm 5"
+title: "A Simple Brief on PCA"
 description: A simple walkthrough of why PCA is needed and how to interpret it.
 date: 2023-1-9
 tags: tutorial data-science
 giscus_comments: true
 ---
 
-Hi! You are either:
+Hi! If you are reading this, you are either:
 
-- not a scientist but want to understand whether PCA should be used
+- not a scientist but want to understand why PCA should be used
 - a data scientist but want to explain to a colleague why PCA should be used
 
-I recently realised that explaining Principal Component Analysis (PCA) to non-scientists is probably a universal experience all data scientists eventually need to do.
+I recently realised that explaining Principal Component Analysis (PCA) to non-scientists is a universally common experience that all data scientists eventually do.
 
-I will explain the cases where PCA is needed, how PCA works, and how to interpret the new features produced by PCA.
+I will explain when PCA is needed, what PCA does, an example with PCA, what benefits PCA brings, and how to interpret the results of PCA.
 
-If you have further questions not addressed in the FAQ, please leave a comment and I will answer you.
+I will <b>not</b> detail how PCA works, how to use PCA, or whether to use PCA or other methods, but I link nice resources in the FAQ.
 
-<hr>
+If you have questions not addressed in the FAQ, please leave a comment and I will answer you.
+
+<hr><br>
+
 
 ## Why is PCA needed?
 
 PCA reduces the number of dimensions of the dataset.
+
+<div class="row mt-3">
+  <div class="col-sm-2 mt-3 mt-md-0"></div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/cat-shadow.jpg" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-2 mt-3 mt-md-0"></div>
+</div>
+
+<div class="caption">
+  Credits to <a href="https://unsplash.com/photos/JIuZZ0-EC0U">Evan Qu</a>.
+</div>
+
+Like how shadows are a 2D representation of 3D objects, PCA finds the best angle to cast the shadow.
 
 Thus, PCA is needed if you:
 
@@ -30,38 +47,41 @@ Thus, PCA is needed if you:
 - cannot afford a large amount of compute (minutes vs hours vs days)
 - want to make sense of many features (e.g. to select important features)
 
-<hr>
+By applying PCA, you:
+- save time (during model training and model iteration)
+- save space (in memory and model parameters) 
+- trade-off a little bit of performance
 
-## What is PCA doing?
+<hr><br>
+
+## What does PCA do?
 
 In a sentence:
 
 <blockquote>
-    PCA produces new features as a <u><b>weighted sum</b></u> of original features, by <u><b>preserving variance</b></u> in the original features.
+    PCA produces new features as a <u><b>weighted sum</b></u> of the original features in the dataset, by <u><b>preserving variance</b></u> in the original features.
 </blockquote>
 
-What is a <b>weighted sum<b>?
+What is a <b>weighted sum</b>?
 
-$$ x_\text{new feature} = w_1\cdot x_\text{feature 1} + w_2\cdot x_\text{feature 2} + ... + w_n\cdot x_\text{feature n} $$
+$$ X = w_1\cdot x_1 + \dotsb + w_n\cdot x_n $$
 
-$$x_\text{new feature}$$ is a sum of original features $$x_\text{feature 1}, ..., x_\text{feature n}$$, each weighted by $$w_1,...,w_n$$ respectively.
+$$X$$ is a sum of values $$x_1,\dotsc, x_n$$, each weighted by $$w_1,\dotsc, w_n$$ respectively. Likewise, PCA produces new features, e.g. $$X_1, X_2,\dotsc$$, as weighted sums of original features $$x_1,\dotsc, x_n$$.
 
-Why preserve variance?
+Why <b>preserve variance</b>?
 
-Preserving variance in the original features retains information about the spread of data, usually resulting in good representations of original features.
+Preserving variance in the original features retains information about the spread of features in the data, usually resulting in good representations of original features for machine learning.
 
-<hr>
+<hr><br>
 
-## Example: PCA on Housing Data
+## Show me an example!
 
-Let’s walk through PCA with an example:
+Let’s walk through PCA with the <a href="https://www.kaggle.com/c/boston-housing">Boston Housing dataset</a>:
 
-- Given a dataset of information about houses, you want to predict its sales price. However, dealing with so many features is unwieldy and expensive in compute.
-    - Input values: 38 numerical features
-    - Output values: Sale price
+Given a dataset of 37 numerical features of houses, you want to predict its sale price. However, dealing with so many features can be (imagine) expensive in compute and difficult to interpret.
 
 <details>
-<summary>A sample of the housing dataset:</summary>
+<summary><small>Code</small></summary>
 {% highlight python %}
 import pandas as pd
 
@@ -166,10 +186,12 @@ df.head()
 </table>
 5 rows x 38 columns
 
-Because PCA reduces the number of dimensions of the dataset, model training takes a shorter time without sacrificing performance.
+Because PCA reduces the number of dimensions of the dataset, model training can take a shorter time without sacrificing too much performance.
+
+Let's run PCA on the 37 features:
 
 <details>
-<summary>Running PCA on original features:</summary>
+<summary><small>Code</small></summary>
 {% highlight python %}
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -190,29 +212,37 @@ pca.fit(X_train)
 X_features = pca.transform(X_train)
 X_features_test = pca.transform(X_test)
 
-print("Original Features:\n", X_train[0].round(3))
-print("\nPCA Features:\n", X_features[0].round(3))
+print("Original features (normalized):\n", X_train[0].round(3))
+print("\nPCA features:\n", X_features[0].round(3))
 {% endhighlight %}
 </details>
 ```
-Original Features:
+Original features (normalized):
  [-0.646  0.136  0.171 -0.252  1.297 -0.523  1.221  1.129  0.026  0.221
  -0.283 -0.675 -0.531 -0.856  1.734 -0.106  0.784  1.175 -0.233  0.79
   1.238  0.175 -0.202  0.9   -0.943  1.214  0.211  0.271 -0.746  1.613
  -0.363 -0.114 -0.285 -0.074 -0.146  2.113  0.879]
 
-PCA Features:
+PCA features:
  [ 2.141 -1.273]
 ```
 
-<hr>
+<hr><br>
 
-### Performance
+## What benefits does PCA bring? At what trade-off?
 
-Training 2 linear regression models, optimizing for root mean squared error (RMSE) of the logarithm of sale price (as evaluated on Kaggle), even though PCA reduces dimensions from 37 to merely 2, there is only a small decrease in test error of -0.02.
+Let's train 2 linear regression models:
+1. Trained on the original 37-dimensional features
+2. Trained on the 2-dimensional features produced by PCA
+
+<br>
+
+#### Performance: A Tiny Trade-off
+
+Even though PCA reduces 37 dimensions to merely 2 dimensions, there is a small decrease in test error of only <b>-0.02</b> (RMSE of log of sale price as evaluated on Kaggle).
 
 <details>
-<summary>Comparing original features and PCA features:</summary>
+<summary><small>Code</small></summary>
 {% highlight python %}
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
@@ -247,14 +277,14 @@ Train error: 0.1935
 Test error: 0.1562
 ```
 
-<hr>
+<br>
 
-### Time
+#### Training Time: A Major Speed-up
 
-With PCA, because number of features is drastically reduced (from 37 to 2), time is also reduced from 4.85ms to 584µs, a 8300X speedup!
+With PCA, because number of features is drastically reduced (from 37 to 2), training time taken is also reduced from 4.85ms to 584µs, a <b>8300X</b> speedup!
 
 <details>
-<summary>Training a linear regression model with original features:</summary>
+<summary><small>Code (Linear regression with original features)</small></summary>
 {% highlight python %}
 %%timeit
 
@@ -270,7 +300,7 @@ y_hat = lr.predict(X_test)
 ```
 
 <details>
-<summary>Training a linear regression model with PCA features:</summary>
+<summary><small>Code (Linear regression with PCA features)</small></summary>
 {% highlight python %}
 %%timeit
 
@@ -284,14 +314,14 @@ y_hat = lr_pca.predict(X_features_test)
 584 µs ± 19 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each)
 ```
 
-<hr>
+<br>
 
-### Space
+#### Memory Space: A Significant Reduction
 
-Because the no. of dimensions decreased by 18.5X, so did space taken, from 265Kb to 14Kb.
+Because the no. of dimensions decreased by 18.5X, so did memory space used, <b>from 265Kb to 14Kb</b>.
 
 <details>
-<summary>Code</summary>
+<summary><small>Code</small></summary>
 {% highlight python %}
 print(f"Memory size of data w/o PCA: {X_train.size * X_train.itemsize} bytes")
 print(f"Memory size of data w/ PCA: {X_features.size * X_features.itemsize} bytes")
@@ -302,7 +332,7 @@ Memory size of data w/o PCA: 265216 bytes
 Memory size of data w/ PCA: 14336 bytes
 ```
 
-<hr>
+<hr><br>
 
 ## How to interpret PCA results
 
@@ -338,8 +368,9 @@ $$ X_1 = w_{11}x_1 + w_{12}x_2 + w_{13}x_3 $$
 
 $$ X_2 = w_{21}x_1 + w_{22}x_2 + w_{23}x_3 $$
 
+Compare weighted sums with PCA features:
 <details>
-<summary>Compare weighted sums with PCA features:</summary>
+<summary><small>Code</small></summary>
 {% highlight python %}
 print("PC1 weighted sum:", sum(pca.components_[0] * X_train[0]).round(3))
 print("PC2 weighted sum:", sum(pca.components_[1] * X_train[0]).round(3))
@@ -355,8 +386,9 @@ PCA features: [1.515 0.968]
 
 Inspecting principal component 1, the highest weighted feature is `OverallQual`. This means that `OverallQual` has the highest variance of all features in the dataset, and is likely a useful feature for sale price prediction.
 
+Sort features by the 1st principal component's weights:
 <details>
-<summary>Sort features by the 1st principal component's weights:</summary>
+<summary><small>Code</small></summary>
 {% highlight python %}
 import matplotlib.pyplot as plt
 plt.style.use('seaborn')
@@ -371,6 +403,8 @@ plt.show()
 </details>
 
 {% include figure.html path="assets/img/pca.png" class="img-fluid rounded z-depth-1" %}
+
+<hr><br>
 
 ## FAQ
 
