@@ -9,7 +9,7 @@ giscus_comments: true
 
 Hi! If you are reading this, you are either:
 
-- not a scientist but want to understand why PCA should be used
+- not a data scientist but want to understand why PCA should be used
 - a data scientist but want to explain to a colleague why PCA should be used
 
 I recently realised that explaining Principal Component Analysis (PCA) to non-scientists is a universally common experience that all data scientists eventually do.
@@ -36,10 +36,8 @@ PCA reduces the number of dimensions of the dataset.
 </div>
 
 <div class="caption">
-  Credits to <a href="https://unsplash.com/photos/JIuZZ0-EC0U">Evan Qu</a>.
+  As an analogy, like how shadows are a 2D representation of 3D objects, PCA finds the best "angle" to cast the "shadow" of the dataset. Credits to <a href="https://unsplash.com/photos/JIuZZ0-EC0U">Evan Qu</a>.
 </div>
-
-Like how shadows are a 2D representation of 3D objects, PCA finds the best angle to cast the shadow.
 
 Thus, PCA is needed if you:
 
@@ -239,7 +237,7 @@ Let's train 2 linear regression models:
 
 #### Performance: A Tiny Trade-off
 
-Even though PCA reduces 37 dimensions to merely 2 dimensions, there is a small decrease in test error of only <b>-0.02</b> (RMSE of log of sale price as evaluated on Kaggle).
+Even though PCA reduces the number of dimensions from 37 to merely 2, there is a small decrease in test error of only <b>-0.02</b> (RMSE of log of sale price as evaluated on Kaggle).
 
 <details>
 <summary><small>Code</small></summary>
@@ -340,27 +338,7 @@ Recall what PCA does:
 
 <blockquote>PCA produces new features as a <u><b>weighted sum</b></u> of original features, by <u><b>preserving variance</b></u> in the original features.</blockquote>
 
-This means that PCA features represent original features as a weighted sum.
-
-$$
-\begin{align}
-\begin{bmatrix}X_1\\X_2\end{bmatrix}
-=&
-\begin{bmatrix}PC_1\\PC_2\end{bmatrix}
-\begin{bmatrix}x_1\\x_2\\x_3\end{bmatrix}\\
-=&
-\begin{bmatrix}
-w_{11} & w_{12} & w_{13}\\
-w_{21} & w_{22} & w_{23}
-\end{bmatrix}
-\begin{bmatrix}x_1\\x_2\\x_3\end{bmatrix}\\
-=&
-\begin{bmatrix}
-w_{11}x_1 + w_{12}x_2 + w_{13}x_3\\
-w_{21}x_1 + w_{22}x_2 + w_{23}x_3
-\end{bmatrix}
-\end{align}
-$$
+PCA produces new features, $$X_1, X_2$$ as a weighted sum of the original features, $$x_1, x_2, x_3$$.
 
 In other words, we can get $$X_1$$ and $$X_2$$ using $$PC_1$$ and $$PC_2$$, by computing a weighted sum of $$[x_1, x_2, x_3]$$.
 
@@ -415,4 +393,26 @@ WIP
 
 <details><summary>When should I not use PCA?</summary>
 WIP
+</details>
+
+<details><summary>What are principal components?</summary>
+$$
+\begin{align}
+\begin{bmatrix}X_1\\X_2\end{bmatrix}
+=&
+\begin{bmatrix}PC_1\\PC_2\end{bmatrix}
+\begin{bmatrix}x_1\\x_2\\x_3\end{bmatrix}\\
+=&
+\begin{bmatrix}
+w_{11} & w_{12} & w_{13}\\
+w_{21} & w_{22} & w_{23}
+\end{bmatrix}
+\begin{bmatrix}x_1\\x_2\\x_3\end{bmatrix}\\
+=&
+\begin{bmatrix}
+w_{11}x_1 + w_{12}x_2 + w_{13}x_3\\
+w_{21}x_1 + w_{22}x_2 + w_{23}x_3
+\end{bmatrix}
+\end{align}
+$$
 </details>
