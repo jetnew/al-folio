@@ -233,8 +233,6 @@ Let's train 2 linear regression models:
 1. Trained on the original 37-dimensional features
 2. Trained on the 2-dimensional features produced by PCA
 
-<br>
-
 #### Performance: A Tiny Trade-off
 
 Even though PCA reduces the number of dimensions from 37 to merely 2, there is a small decrease in test error of only <b>-0.02</b> (RMSE of log of sale price as evaluated on Kaggle).
@@ -275,8 +273,6 @@ Train error: 0.1935
 Test error: 0.1562
 ```
 
-<br>
-
 #### Training Time: A Major Speed-up
 
 With PCA, because number of features is drastically reduced (from 37 to 2), training time taken is also reduced from 4.85ms to 584µs, a <b>8300X</b> speedup!
@@ -311,8 +307,6 @@ y_hat = lr_pca.predict(X_features_test)
 ```
 584 µs ± 19 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each)
 ```
-
-<br>
 
 #### Memory Space: A Significant Reduction
 
