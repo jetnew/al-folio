@@ -4,9 +4,19 @@
     - name: Name
       value: Jet New
     - name: Education
-      value: B.Comp. in Computer Science at NUS
+      value: B.Comp Computer Science at NUS
     - name: Work
-      value: Data Scientist at Indeed
+      value: Data Scientist at Indeed (Offer Rescinded Due to Layoffs Impacting Entire SG Office)
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Bachelor of Computing, Computer Science
+      institution: National University of Singapore
+      year: 2023
+      description:
+        - Special Programmes - Turing Research Programme, University Scholars Programme (Honour Roll)
+        - Relevant Coursework - Machine Learning (Top Student, Best Project), Computer Vision (Best Project), AI Planning & Decision Making (Best Project), Natural Language Processing, Data Structures & Algorithms, Software Engineering, Research Methodology
 
 - title: Experience
   type: time_table
@@ -16,71 +26,93 @@
       year: Jul 2023 - Onwards
 
     - title: Data Scientist Intern
-      institution: Indeed
-      year: Summer 2022
+      institution: Indeed - Match Recommendation Platform
+      year: May 2022 - Jul 2022
       description:
-        - Performed feature experimentation for the core match recommendation system, improving business-critical metrics for 300M job seekers.
-        - Deployed a model to production through data pipelining, feature engineering, model training and online A/B testing using Spark, Hive, Airflow, Jenkins, etc.
+        - Feature Experimentation - Improved Indeed's core recommendation system to match jobseekers and employers, by experimenting on a new "no. of hires needed" feature, improving job outcomes for >300M jobseekers.
+        - Data Engineering - Added new features of >300M jobseekers of >100 days to training database, backfilling historical data over aggregated windows using Spark's reduce(). Orchestrated data dumping to AWS servers job using Airflow.
+        - Feature Analysis - Performed EDA and feature engineering on new features. Trained and evaluated 4 new models against original models using internal ML platform, showing improved AUROC and justifying a full A/B experiment.
+        - A/B Experimentation - Performed power analysis to determine required traffic size and ran A/B experiments using Proctor with orthogonal design to account for interaction effects. Deployed improved models to production.
 
-    - title: Undergraduate AI Researcher
-      institution: National University of Singapore
-      year: 2020 - 2021
+    - title: Student AI Researcher
+      institution: NUS - Collaborative, Learning, and Adaptive Robots Lab
+      year: Nov 2020 - Apr 2023
       description:
-        - Researched reinforcement learning and graph neural networks.
-        - Wrote a <a href="https://jetnew.io/assets/pdf/new2021representation.pdf">survey paper on representation learning</a> for reinforcement learning, and presented paper summaries to lab members.
+        - Transformer Models - Improved generalization of world models during distribution shift in the multi-agent context, by exploiting permutation invariance of transformers, exceeding performance of state-of-the-art Trajectory Transformer.
+        - <a href="https://jetnew.io/assets/pdf/new2021representation.pdf">Representation Learning</a> - Improved robustness of reinforcement learning to noise in visual observations, by learning decorrelated latent variables using Barlow Twins, exceeding performance of state-of-the-art algorithm Dreamer.
+        - <a href="https://jetnew.io/assets/pdf/new2021representation.pdf">Survey Paper</a> - Reviewed representation learning for model-based reinforcement learning, challenges and directions."
 
     - title: Machine Learning Engineer Intern
-      institution: Grab
-      year: Summer 2020
+      institution: Grab - Marketplace
+      year: May 2020 - Jul 2020
       description:
-        - Developed a probabilistic modelling framework in TensorFlow 2 for the dynamic pricing algorithm, including benchmarking and visualisation utilities.
-        - Presented at Singapore <a href="https://www.youtube.com/watch?v=6uwugOSuwhE">Google Developer Space</a>.
+        - <a href="https://jetnew.io/assets/pdf/new2020grab.pdf">Probabilistic Models</a> - Built a probabilistic modelling framework used by Grab's core dynamic pricing algorithm, implementing 5 models using Tensorflow Probability (Gaussian mixture density network, Bayesian neural network, etc)
+        - Utility Tools - Built tools for evaluation on industry datasets (KL & JS divergence), visualization of model probability densities (3D and violin plots), and hyperparameter tuning using Ax Bayesian optimization framework.
+        - <a href="https://www.youtube.com/live/6uwugOSuwhE?feature=share&t=2496">Internship Sharing</a> - Presented to the data science community at Google Developer Space Singapore.
 
-    - title: Executive
-      institution: Infocomm Media Development Authority
-      year: 2018 - 2019
+    - title: Executive (Machine Learning)
+      institution: IMDA - Digital Services Lab
+      year: Nov 2018 - Jun 2019
       description:
-        - Developed and benchmarked an unsupervised time series anomaly detection <a href="https://www.imda.gov.sg/programme-listing/digital-services-lab/Intelligent-Building-Proactive-Energy-Management/Chiller-Doctor">algorithm</a> that secured a $500K deal to deploy for 2 industry clients.
+        - <a href="https://www1.bca.gov.sg/docs/default-source/docs-corp-news-and-publications/media-releases/sleb-smart-hub-mr04092019a.pdf">Anomaly Detection</a> - Designed an anomaly detection algorithm, achieving 0.92 F1 score and deployed as client's main solution, securing a $500K project deal, after evaluating >10 algorithms (e.g. LSTM, Holt-Winters, SARIMA).
+        - Natural Language Processing - (Confidential) Built hierarchical attention network with GloVe vectors using Keras and Spacy, scraped 40K webpages using Selenium, and delivered insights to Director of Tech & Infra Group.
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Bachelor of Computing, Computer Science
-      institution: National University of Singapore
-      year: 2023
-      description:
-        - <a href="http://www.usp.nus.edu.sg/">University Scholars Programme</a>, an academic programme and honours college that admits less than 3% of the NUS cohort.
-        - <a href="https://www.comp.nus.edu.sg/programmes/ug/cs/tp/">Turing Programme</a>, an invite-only research programme for CS students selected by class performance.
-        - President of the NUS Statistics and Data Science Society, a student initiative under the NUS Department of Statistics and Data Science.
-
-- title: Projects
+- title: Research Projects
   type: time_table
   contents:
     - title: <a href="https://jetnew.io/assets/pdf/new2021structured.pdf">Structured Multi-Agent World Models</a>
       year: 2021
-      description: Researched graph neural networks for multi-agent reinforcement learning, improving performance and planning accuracy, awarded CS4246 Class Project Competition Winner out of 142 students.
+      description: Researched graph neural networks for multi-agent reinforcement learning, improving performance and planning accuracy. Awarded CS4246 Class Project Competition Winner out of 142 students.
+    - title: <a href="https://jetnew.io/assets/pdf/new2021btrl.pdf">Barlow Twins for Model-Based Reinforcement Learning</a>
+      year: 2021
+      description: Researched Barlow Twins and contrastive self-supervised learning for model-based reinforcement learning, improving robustness and training stability.
+    - title: <a href="https://jetnew.io/assets/pdf/new2020slime.pdf">Bayesian Multi-Agent Reinforcement Learning</a>
+      year: 2021
+      description: Researched flipout for competitive multi-agent reinforcement learning, improving performance, training stability and generalization. Awarded 1st Place at NUS Project Showcase out of 78 teams.
+    - title: <a href="https://jetnew.io/assets/pdf/new2021drfaq.pdf">NLP Question Answering Transfer Learning</a>
+      year: 2021
+      description: Researched transfer learning of NLP question answering (QA) capabilities, benchmarking 6 BERT-based models over 14 QA datasets on zero-shot and fine-tuned performance.
 
-- title: Awards
+
+- title: Achievements
   type: time_table
   contents:
     - year: 2022
       items: 
-        - NUS Computing Term Project Showcase - Honourable Mention
-        - CS4243 Class Project - Top Project out of 50 students
+        - Honourable Mention Project - for CS4243 Computer Vision
     - year: 2021
       items: 
-        - CS4246 Class Project Competition - Winner out of 142 students
-        - NUS School of Computing Student Awards - Silver Award (Achievement)
-        - Optigram Data Visualization Competition - 1st Runner Up
-        - University Scholars Programme - Honour Roll
+        - Top Project - out of 142 students for CS4246 AI Planning & Decision Making
+        - Silver (Achievement) - NUS School of Computing Student Awards
+        - 1st Runner Up - Optigram Data Visualization Competition
+        - Honour Roll - University Scholars Programme
     - year: 2020
       items:
-        - CS3244 Machine Learning - Top Student out of 272 students
-        - NUS Computing Term Project Showcase - 1st Place out of 54 teams
-        - HackAsia Global Hackathon - Top 10 Finalist out of 54 teams
+        - Top Student & Top Project - out of 272 students & 54 teams for CS3244 Machine Learning
+        - Top 10 Finalist - out of 54 teams at HackAsia Global Hackathon
     - year: 2019
       items:
-        - NTU iNTUition Hackathon - Best AI Hack out of 130 students
+        - Best AI Hack - out of 130 participants at NTU iNTUition Hackathon
+
+
+- title: Skills
+  type: list
+  contents:
+    - <u>Programming Languages:</u> Python, Java, SQL, C++
+    - <u>Data Science/Machine Learning:</u> Jax, PyTorch, TensorFlow, Apache (Spark, Hive, Airflow), Numpy, Pandas, Matplotlib
+    - <u>Software Engineering:</u> Docker, Git, AWS (S3, Athena, Presto, Glue), Jenkins, Linux, GCP
+
+
+
+- title: Activities
+  type: time_table
+  contents:
+    - title: President at NUS Statistics and Data Science Society
+      year: 2021
+      description: Led 40 students to organize data science workshops and an annual competition with 850 participants.
+    - title: Technology Associate (Data Analytics) at Google Developer Student Club
+      year: 2020
+      description: Organized 5 data science workshops at Google Developer Space Singapore, reaching 120 students.
 
 # - title: Academic Interests
 #   type: nested_list
