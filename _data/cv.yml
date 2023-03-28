@@ -8,6 +8,7 @@
     - name: Work
       value: Data Scientist at Indeed (Offer Rescinded Due to Layoffs Impacting Entire SG Office)
 
+
 - title: Education
   type: time_table
   contents:
@@ -17,6 +18,7 @@
       description:
         - Special Programmes - Turing Research Programme, University Scholars Programme (Honour Roll)
         - Relevant Coursework - Machine Learning (Top Student, Best Project), Computer Vision (Best Project), AI Planning & Decision Making (Best Project), Natural Language Processing, Data Structures & Algorithms, Software Engineering, Research Methodology
+
 
 - title: Experience
   type: time_table
@@ -101,7 +103,6 @@
     - <u>Programming Languages:</u> Python, Java, SQL, C++
     - <u>Data Science/Machine Learning:</u> Jax, PyTorch, TensorFlow, Apache (Spark, Hive, Airflow), Numpy, Pandas, Matplotlib
     - <u>Software Engineering:</u> Docker, Git, AWS (S3, Athena, Presto, Glue), Jenkins, Linux, GCP
-
 
 
 - title: Activities
