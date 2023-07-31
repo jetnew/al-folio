@@ -22,7 +22,7 @@ social: true  # includes social icons at the bottom of the page
 
 💼 I previously worked as:
 - Data Scientist Intern at Indeed (2022)
-- AI Student Researcher at [NUS Collaborative, Learning, and Adaptive Robots (CLeAR) Lab](https://clear-nus.github.io/) (2021)
+- RL Research Student at NUS (2021)
 - Machine Learning Engineer Intern at Grab (2021)
 
 🧠 I run [AI Space](https://t.me/joinchat/Nd3pOKrmU2EwYTU9), an AI community in Singapore with 500+ people, to meet new people with similar interests in AI. Previously, I led the [NUS Statistics & Data Science Society](https://www.linkedin.com/company/nussds) student club as president.
