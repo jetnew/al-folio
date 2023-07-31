@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 💻 Hi! I’m a computer science fresh grad from the [National University of Singapore](https://www.comp.nus.edu.sg), Turing Research Programme and University Scholars Programme.
 
-🕶️ I'm currently building Large Language Model (LLM) agents to scale business processes.
+🕶️ I'm currently building Large Language Model (LLM) agents to scale business processes at [AgentScale.ai](https://agentscale.ai).
 
 💼 I previously worked as:
 - Data Scientist Intern at Indeed (2022)
