@@ -16,8 +16,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-💻 Hi! I'm a computer science undergraduate at the [National University of Singapore](https://www.comp.nus.edu.sg).
+💻 Hi! I’m a computer science fresh grad from the [National University of Singapore](https://www.comp.nus.edu.sg), Turing Research Programme and University Scholars Programme.
 
-🧠 I'm currently researching world models for multi-agent reinforcement learning for my final year project.
+🕶️ I'm currently building Large Language Model (LLM) agents to scale business processes.
 
-♟️ I like to play games, make games, and make AI play games. In the future: [Make AI that build games, then play them?](https://ai.googleblog.com/2021/03/paired-new-multi-agent-approach-for.html)
+💼 I previously worked as:
+- Data Scientist Intern at Indeed (2022)
+- AI Student Researcher at Collaborative, Learning, and Adaptive Robots (CLeAR) Lab (2021)
+- Machine Learning Engineer Intern at Grab (2021)
+
+🧠 I run AI Space, an AI community in Singapore with 500+ people, to meet new people with similar interests in AI. Previously, I led the NUS Statistics & Data Science Society as president.
