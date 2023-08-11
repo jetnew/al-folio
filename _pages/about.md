@@ -18,11 +18,11 @@ social: true  # includes social icons at the bottom of the page
 
 🕶️ Hi! I'm building Large Language Model (LLM) agents to help businesses scale at [AgentScale.ai](https://agentscale.ai).
 
-🎓 I graduated in CS from the [National University of Singapore](https://www.comp.nus.edu.sg) in 2023, with both software engineering and AI research experience.
+🎓 I graduated in CS from the [National University of Singapore](https://www.comp.nus.edu.sg) in 2023, with both ML engineering and AI research experience.
 
 💼 I previously worked as:
 - Data Scientist Intern at Indeed (2022)
 - Student AI Researcher at NUS (2021)
 - Machine Learning Engineer Intern at Grab (2021)
 
-🧠 I run [AI Space](https://t.me/joinchat/Nd3pOKrmU2EwYTU9), an AI community in Singapore with 600+ people, e.g. at Google Developer Space. I previously led the [NUS Statistics & Data Science Society](https://www.linkedin.com/company/nussds) as president, organizing data science workshops and competitions.
+🧠 I run [AI Space](https://t.me/joinchat/Nd3pOKrmU2EwYTU9), an AI community in Singapore with 600+ people, e.g. at Google Developer Space.
