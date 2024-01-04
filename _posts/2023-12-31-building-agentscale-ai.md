@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building AgentScale AI: My Most Significant Experiences in 2023"
-description: A post detailing the most significant of my experiences building my startup.
+description: A post detailing my most significant experiences building my startup AgentScale AI.
 date: 2023-12-31
 tags: startup life
 giscus_comments: true
