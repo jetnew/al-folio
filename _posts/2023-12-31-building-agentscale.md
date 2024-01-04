@@ -21,12 +21,10 @@ AgentScale AI’s founding journey began 7 months ago in June. This post lists t
 
 At the start of the year with the release of ChatGPT (GPT-4), tons of LLM apps like chatbots for customer service and chatting with PDFs went viral and successful on Twitter, to the point that people began coining them “AI wrappers”, describing products that simply wrap over ChatGPT’s capabilities. It must be a good direction to start with though, I thought, and weeks later I pitched to potential business partners.
 
-![[Distilled Daily](https://distilleddaily.news/), an AI newsletter that summarizes articles and comments on AI from Hacker News.](https://prod-files-secure.s3.us-west-2.amazonaws.com/fc7b2cf6-ba00-40fa-9fb9-f7bc38a201db/86bbdd85-3891-4225-b05a-e3c130e02d7f/Screenshot_2024-01-04_at_5.12.02_PM.png)
-
 <div class="row mt-3">
   <div class="col-sm-2 mt-3 mt-md-0"></div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="https://prod-files-secure.s3.us-west-2.amazonaws.com/fc7b2cf6-ba00-40fa-9fb9-f7bc38a201db/86bbdd85-3891-4225-b05a-e3c130e02d7f/Screenshot_2024-01-04_at_5.12.02_PM.png" class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/agentscale/logo_tag.png" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-2 mt-3 mt-md-0"></div>
 </div>
@@ -41,11 +39,17 @@ Little did I realize, I was more excited sharing about the potential of AI agent
 
 ### July: “For our loved ones”
 
-At a [LLM hackathon (on a yacht!)](https://www.linkedin.com/posts/jetnew_happy-to-share-that-my-team-won-1000-activity-7091648720160657408-SqVe), scientist-entrepreneur Jonathan Rothberg, the owner of the yacht, gave a speech to participants and invited investors. Years ago, his son was sent to the ICU and doctors didn’t have a rapid test to test for an inherited disease. Frustrated, he brought to market a machine for massively parallel DNA sequencing.
+<div class="row mt-3">
+  <div class="col-sm-2 mt-3 mt-md-0"></div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="https://prod-files-secure.s3.us-west-2.amazonaws.com/fc7b2cf6-ba00-40fa-9fb9-f7bc38a201db/b68aeb04-2e32-4622-8ff9-e42e32328bee/IMAGE_2024-01-04_170756.jpg" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-2 mt-3 mt-md-0"></div>
+</div>
 
-![[LLM4Bio Hackathon](https://www.linkedin.com/posts/jetnew_happy-to-share-that-my-team-won-1000-activity-7091648720160657408-SqVe/) on the Gene Chaser yacht with Jonathan Rothberg with the Gene Machine yacht in the background.](https://prod-files-secure.s3.us-west-2.amazonaws.com/fc7b2cf6-ba00-40fa-9fb9-f7bc38a201db/b68aeb04-2e32-4622-8ff9-e42e32328bee/IMAGE_2024-01-04_170756.jpg)
-
-[LLM4Bio Hackathon](https://www.linkedin.com/posts/jetnew_happy-to-share-that-my-team-won-1000-activity-7091648720160657408-SqVe/) on the Gene Chaser yacht with Jonathan Rothberg with the Gene Machine yacht in the background.
+<div class="caption">
+  [LLM4Bio Hackathon](https://www.linkedin.com/posts/jetnew_happy-to-share-that-my-team-won-1000-activity-7091648720160657408-SqVe/) on the Gene Chaser yacht with Jonathan Rothberg with the Gene Machine yacht in the background.
+</div>
 
 In his founder’s story, he shared his “why” - to make no regrets when it came to our loved ones. His mission resonated with me and many others. A strong purpose is key to forge through in pursuit of a vision. For Jonathan, he chose what to work on for his loved ones.
 
