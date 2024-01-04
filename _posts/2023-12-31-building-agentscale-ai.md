@@ -19,7 +19,7 @@ giscus_comments: true
 
 [AgentScale AI](https://agentscale.ai/) is building an AI agent for the browser. A [LLM](https://en.wikipedia.org/wiki/Large_language_model) takes in text as input and generates text as output. In contrast, a LLM agent for the browser takes in the website’s DOM (e.g. HTML) as input and generates browser actions (e.g. clicking and typing) as output.
 
-Our vision is to champion a new era of web productivity with an AI agent that simplifies and accelerates online tasks. Our mission is to empower people to focus on meaningful work by eliminating tedious tasks.
+Our mission is to empower people to focus on meaningful work by eliminating tedious tasks. Our vision is to champion a new era of web productivity with an AI agent that simplifies and accelerates online tasks.
 
 I am [Jet New](https://www.linkedin.com/in/jetnew/), AI engineer and founder of AgentScale AI. Previously, I worked as a data scientist at Indeed, ML engineer at Grab, and did AI research at NUS. My passion has always been in automation, leading me to create scripts for games and research reinforcement learning (used in AlphaStar, AlphaGo).
 
