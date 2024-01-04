@@ -9,6 +9,14 @@ giscus_comments: true
 
 ### About AgentScale AI
 
+<div class="row mt-3">
+  <div class="col-sm-2 mt-3 mt-md-0"></div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/agentscale/logo_tag.png" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-2 mt-3 mt-md-0"></div>
+</div>
+
 [AgentScale AI](https://agentscale.ai/) is building an AI agent for the browser. A [LLM](https://en.wikipedia.org/wiki/Large_language_model) takes in text as input and generates text as output. In contrast, a LLM agent for the browser takes in the website’s DOM (e.g. HTML) as input and generates browser actions (e.g. clicking and typing) as output.
 
 Our vision is to champion a new era of web productivity with an AI agent that simplifies and accelerates online tasks. Our mission is to empower people to focus on meaningful work by eliminating tedious tasks.
@@ -24,16 +32,14 @@ At the start of the year with the release of ChatGPT (GPT-4), tons of LLM apps l
 <div class="row mt-3">
   <div class="col-sm-2 mt-3 mt-md-0"></div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/agentscale/logo_tag.png" class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/agentscale/distilleddaily.png" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-2 mt-3 mt-md-0"></div>
 </div>
 
 <div class="caption">
-  [Distilled Daily](https://distilleddaily.news/), an AI newsletter that summarizes articles and comments on AI from Hacker News.
+  <a href="https://distilleddaily.news">Distilled Daily</a>, an AI newsletter that summarizes articles and comments on AI from Hacker News.
 </div>
-
-[Distilled Daily](https://distilleddaily.news/), an AI newsletter that summarizes articles and comments on AI from Hacker News.
 
 Little did I realize, I was more excited sharing about the potential of AI agents than the LLM apps that I was pitching. One seasoned director asked me “Is this really what you want to work on?” He sensed my passion was greater elsewhere. I had simply followed the trend of what seemed to work, instead of figuring out what I should work on. How do founders decide what they should work on? At least, it was not by chasing whatever was trendy at the time.
 
@@ -42,13 +48,13 @@ Little did I realize, I was more excited sharing about the potential of AI agent
 <div class="row mt-3">
   <div class="col-sm-2 mt-3 mt-md-0"></div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="https://prod-files-secure.s3.us-west-2.amazonaws.com/fc7b2cf6-ba00-40fa-9fb9-f7bc38a201db/b68aeb04-2e32-4622-8ff9-e42e32328bee/IMAGE_2024-01-04_170756.jpg" class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/agentscale/llm4bio.jpg" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-2 mt-3 mt-md-0"></div>
 </div>
 
 <div class="caption">
-  [LLM4Bio Hackathon](https://www.linkedin.com/posts/jetnew_happy-to-share-that-my-team-won-1000-activity-7091648720160657408-SqVe/) on the Gene Chaser yacht with Jonathan Rothberg with the Gene Machine yacht in the background.
+  <a href="https://www.linkedin.com/posts/jetnew_happy-to-share-that-my-team-won-1000-activity-7091648720160657408-SqVe/">LLM4Bio Hackathon</a> on the Gene Chaser yacht with Jonathan Rothberg with the Gene Machine yacht in the background.
 </div>
 
 In his founder’s story, he shared his “why” - to make no regrets when it came to our loved ones. His mission resonated with me and many others. A strong purpose is key to forge through in pursuit of a vision. For Jonathan, he chose what to work on for his loved ones.
@@ -59,7 +65,17 @@ A lot is written about how to come up with good ideas or evaluate ideas, but not
 
 [Pebblely](https://pebblely.com/)’s co-founders Swee Kiat and Alfred decided with “At a party, will I be excited to tell others what I’m working on?” Some on Twitter proposed “If AGI is the most important problem of our lifetime, we must work on it” Others were simply concerned about profitability and whether they could build it.
 
-![Personal Assistant, a Telegram chatbot integrated with Gmail, Calendar, Search and ChatGPT, personalized with your preferences.](https://prod-files-secure.s3.us-west-2.amazonaws.com/fc7b2cf6-ba00-40fa-9fb9-f7bc38a201db/52d497dc-c4f3-4a8d-bf77-8657aa5fa171/Screenshot_2024-01-04_at_5.12.52_PM.png)
+<div class="row mt-3">
+  <div class="col-sm-2 mt-3 mt-md-0"></div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/agentscale/assistant.png" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-2 mt-3 mt-md-0"></div>
+</div>
+
+<div class="caption">
+  <a href="https://agentscale.ai/assistant">Personal Assistant</a>, a Telegram chatbot integrated with Gmail, Calendar, Search and ChatGPT, personalized with your preferences.
+</div>
 
 Personal Assistant, a Telegram chatbot integrated with Gmail, Calendar, Search and ChatGPT, personalized with your preferences.
 
@@ -67,7 +83,17 @@ I decided that I want to “work on cool stuff”. I want to build stuff that I�
 
 ### September: “Today, Bard integrates with your Google services”
 
-![Google Bard’s Extensions announcement, allowing Bard to integrate with Google services.](https://prod-files-secure.s3.us-west-2.amazonaws.com/fc7b2cf6-ba00-40fa-9fb9-f7bc38a201db/ce2721f4-5454-4b67-95cd-4bd3297f6142/bard_extensions.webp)
+<div class="row mt-3">
+  <div class="col-sm-2 mt-3 mt-md-0"></div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/agentscale/bard.webp" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-2 mt-3 mt-md-0"></div>
+</div>
+
+<div class="caption">
+  <a href="https://blog.google/products/bard/google-bard-new-features-update-sept-2023/">Google Bard’s Extensions announcement</a>, allowing Bard to integrate with Google services.
+</div>
 
 Google Bard’s Extensions announcement, allowing Bard to integrate with Google services.
 
@@ -83,7 +109,17 @@ I finally reached a resolution in an [essay by Paul Graham](https://paulgraham.c
 
 While product-market fit is important, founder-market fit is even more so. Why are you the best person to work on this problem? Skills, experience, insights, network and resources are relevant, but the founder’s story - one’s “why” - is ultimately what compels founder-market fit, to others but more importantly to oneself.
 
-![Sharing about AgentScale AI with other AI founders and investors at the mixer.](https://prod-files-secure.s3.us-west-2.amazonaws.com/fc7b2cf6-ba00-40fa-9fb9-f7bc38a201db/f1ec130b-dd24-491b-9b31-ecc62e7c5b11/Untitled.png)
+<div class="row mt-3">
+  <div class="col-sm-2 mt-3 mt-md-0"></div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/agentscale/mixer.png" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-2 mt-3 mt-md-0"></div>
+</div>
+
+<div class="caption">
+  Sharing about AgentScale AI with other AI founders and investors at the mixer.
+</div>
 
 Sharing about AgentScale AI with other AI founders and investors at the mixer.
 
@@ -101,7 +137,17 @@ I’d pitched the vision to Gene and got both of us excited to get started. Howe
 
 As I observed how people around me used ChatGPT, many complained of ChatGPT either misunderstanding their message or hallucinating made-up information. However, I noticed that the majority of their messages and their intents can actually be inferred by reading the tabs open on their browser.
 
-![Browser Extension, a Chrome/Edge extension that integrates ChatGPT directly into your browser.](https://prod-files-secure.s3.us-west-2.amazonaws.com/fc7b2cf6-ba00-40fa-9fb9-f7bc38a201db/af58a0b3-7245-4e21-ba25-55900eac2be4/Screenshot_2024-01-04_at_5.19.03_PM.png)
+<div class="row mt-3">
+  <div class="col-sm-2 mt-3 mt-md-0"></div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/cat-shadow.jpg" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-2 mt-3 mt-md-0"></div>
+</div>
+
+<div class="caption">
+  <a href="https://agentscale.ai/extension">Browser Extension</a>, a Chrome/Edge extension that integrates ChatGPT directly into your browser.
+</div>
 
 Browser Extension, a Chrome/Edge extension that integrates ChatGPT directly into your browser.
 
