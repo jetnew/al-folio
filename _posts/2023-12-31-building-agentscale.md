@@ -23,6 +23,18 @@ At the start of the year with the release of ChatGPT (GPT-4), tons of LLM apps l
 
 ![[Distilled Daily](https://distilleddaily.news/), an AI newsletter that summarizes articles and comments on AI from Hacker News.](https://prod-files-secure.s3.us-west-2.amazonaws.com/fc7b2cf6-ba00-40fa-9fb9-f7bc38a201db/86bbdd85-3891-4225-b05a-e3c130e02d7f/Screenshot_2024-01-04_at_5.12.02_PM.png)
 
+<div class="row mt-3">
+  <div class="col-sm-2 mt-3 mt-md-0"></div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="https://prod-files-secure.s3.us-west-2.amazonaws.com/fc7b2cf6-ba00-40fa-9fb9-f7bc38a201db/86bbdd85-3891-4225-b05a-e3c130e02d7f/Screenshot_2024-01-04_at_5.12.02_PM.png" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-2 mt-3 mt-md-0"></div>
+</div>
+
+<div class="caption">
+  [Distilled Daily](https://distilleddaily.news/), an AI newsletter that summarizes articles and comments on AI from Hacker News.
+</div>
+
 [Distilled Daily](https://distilleddaily.news/), an AI newsletter that summarizes articles and comments on AI from Hacker News.
 
 Little did I realize, I was more excited sharing about the potential of AI agents than the LLM apps that I was pitching. One seasoned director asked me “Is this really what you want to work on?” He sensed my passion was greater elsewhere. I had simply followed the trend of what seemed to work, instead of figuring out what I should work on. How do founders decide what they should work on? At least, it was not by chasing whatever was trendy at the time.
@@ -117,6 +129,6 @@ I’ve applied a few frameworks for product development:
 
 ### Directions Ahead
 
-Having validated products with paying customers, the next step is sales and distribution. Therefore, the focus for 2024 is to develop and execute a Go-to-Market strategy.
+Having validated products with paying customers, the natural next step is sales and distribution. Therefore, the focus for 2024 is to develop and execute a Go-to-Market strategy.
 
 In 2024, AI agents that control the browser will become sufficiently reliable for many online tasks. Our goal is to streamline online research for analysts and researchers in Singapore, [beginning with the manual task of data extraction](https://www.linkedin.com/posts/jetnew_spending-hours-on-manual-and-tedious-data-activity-7143482720403218432-XNUu). If this interests you, subscribe to updates [here](https://lnkd.in/g-dnZ3hZ).
