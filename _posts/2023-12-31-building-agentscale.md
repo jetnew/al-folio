@@ -7,8 +7,6 @@ tags: startup life
 giscus_comments: true
 ---
 
-### About AgentScale AI
-
 <div class="row mt-3">
   <div class="col-sm-2 mt-3 mt-md-0"></div>
   <div class="col-sm mt-3 mt-md-0">
@@ -16,6 +14,8 @@ giscus_comments: true
   </div>
   <div class="col-sm-2 mt-3 mt-md-0"></div>
 </div>
+
+### About AgentScale AI
 
 [AgentScale AI](https://agentscale.ai/) is building an AI agent for the browser. A [LLM](https://en.wikipedia.org/wiki/Large_language_model) takes in text as input and generates text as output. In contrast, a LLM agent for the browser takes in the website’s DOM (e.g. HTML) as input and generates browser actions (e.g. clicking and typing) as output.
 
