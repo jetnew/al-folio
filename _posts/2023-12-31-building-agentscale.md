@@ -7,7 +7,7 @@ tags: startup life
 giscus_comments: true
 ---
 
-### AgentScale AI
+### About AgentScale AI
 
 [AgentScale AI](https://agentscale.ai/) is building an AI agent for the browser. A [LLM](https://en.wikipedia.org/wiki/Large_language_model) takes in text as input and generates text as output. In contrast, a LLM agent for the browser takes in the website’s DOM (e.g. HTML) as input and generates browser actions (e.g. clicking and typing) as output.
 
