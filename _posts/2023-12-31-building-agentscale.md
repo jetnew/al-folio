@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building AgentScale AI: My Most Significant Experiences in 2023"
-description: A post detailing the most significant of my experiences building my startup AgentScale AI.
+description: A post detailing the most significant of my experiences building my startup.
 date: 2023-12-31
 tags: startup life
 giscus_comments: true
@@ -77,8 +77,6 @@ A lot is written about how to come up with good ideas or evaluate ideas, but not
   <a href="https://agentscale.ai/assistant">Personal Assistant</a>, a Telegram chatbot integrated with Gmail, Calendar, Search and ChatGPT, personalized with your preferences.
 </div>
 
-Personal Assistant, a Telegram chatbot integrated with Gmail, Calendar, Search and ChatGPT, personalized with your preferences.
-
 I decided that I want to “work on cool stuff”. I want to build stuff that I’m excited to share with the world, stuff that is impactful, useful and awesome. I decided to work on AI agents and built [Personal Assistant](https://agentscale.ai/assistant), an AI on Telegram that integrates with your personal services such as Gmail and Calendar. It was a cool product that I was proud of building, and I even acquired 2 customers.
 
 ### September: “Today, Bard integrates with your Google services”
@@ -86,7 +84,7 @@ I decided that I want to “work on cool stuff”. I want to build stuff that I�
 <div class="row mt-3">
   <div class="col-sm-2 mt-3 mt-md-0"></div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/agentscale/bard.webp" class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/agentscale/bard.png" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-2 mt-3 mt-md-0"></div>
 </div>
@@ -94,8 +92,6 @@ I decided that I want to “work on cool stuff”. I want to build stuff that I�
 <div class="caption">
   <a href="https://blog.google/products/bard/google-bard-new-features-update-sept-2023/">Google Bard’s Extensions announcement</a>, allowing Bard to integrate with Google services.
 </div>
-
-Google Bard’s Extensions announcement, allowing Bard to integrate with Google services.
 
 In this age of accelerating innovation, it is unsurprising for disruptions to happen every month. However, [when Bard announced Extensions](https://blog.google/products/bard/google-bard-new-features-update-sept-2023/), allowing Bard to connect with Gmail and Drive, it dawned on me the difficulty of entering a competitive market with giant incumbents and their strategic advantages.
 
@@ -120,8 +116,6 @@ While product-market fit is important, founder-market fit is even more so. Why a
 <div class="caption">
   Sharing about AgentScale AI with other AI founders and investors at the mixer.
 </div>
-
-Sharing about AgentScale AI with other AI founders and investors at the mixer.
 
 At an [AI Founders and Investors Mixer](https://www.linkedin.com/posts/jaimeng_ai-hacklaunch-innovation-activity-7123657383423201280-YLl_), I pitched my product demo - an AI agent on the browser - and the story behind it, and soon interested founders and investors formed a group around me. One investor even remarked “I might invest in this one”. While I was not raising a round at the time, it was validation that the founder’s story is essential to inspire a vision.
 
@@ -148,8 +142,6 @@ As I observed how people around me used ChatGPT, many complained of ChatGPT eith
 <div class="caption">
   <a href="https://agentscale.ai/extension">Browser Extension</a>, a Chrome/Edge extension that integrates ChatGPT directly into your browser.
 </div>
-
-Browser Extension, a Chrome/Edge extension that integrates ChatGPT directly into your browser.
 
 Therefore, I built a [extension for ChatGPT](https://agentscale.ai/extension) to access and read tabs on the browser. As expected, most misunderstandings and hallucinations in practice were eliminated, resulting in high quality responses from ChatGPT. I acquired 2 customers for this product who were compelled by the product’s value proposition, one of whom complimented “It fits a time-saving use case, well done”.
 
